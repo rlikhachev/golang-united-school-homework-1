@@ -8,7 +8,7 @@ import (
 
 func TestGetMessageFunction(t *testing.T) {
 	message := GetMessage() 
-	if message != emoji.Sprint("Hello,:world_map:!") {
+	if message != emoji.Sprint("Hello :world_map:!") {
 		t.Error("Incorrect message!")
 	}
 }
